@@ -7,7 +7,7 @@ This is a small package with which you can count the number of times your comput
 2. Windows computer (Windows 10 is preffered)
 
 ### Installation
-1. Copy the folder [ONF](.\ONF)
+1. Copy the folder [ONF](./ONF)
 2. Paste it in 'site-packages'
    
    To open 'site-packages'
