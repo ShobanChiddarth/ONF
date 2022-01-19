@@ -34,7 +34,7 @@ The following is only for windows computers
    ![explorer-addressbar-03](Assets\Images\explorer-addressbar-03.png)
 10. Paste the [onf.cmd](.\Assets\onf.cmd) file you just copied
 
-You are all set. Whenever your system starts up, it will be counted.
+You are all set. Whenever your computer starts up, it will be counted.
 To know the count, run this piece of code in python
 ```python
 from ONF import count
