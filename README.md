@@ -4,10 +4,10 @@ This is a small package with which you can count the number of times your comput
 
 ### Requirements
 1. Python 3
-2. Windows is preffered
+2. Windows computer (Windows 10 is preffered)
 
 ### Installation
-1. Copy the folder [ONF](./ONF)
+1. Copy the folder [ONF](.\ONF)
 2. Paste it in 'site-packages'
    
    To open 'site-packages'
@@ -19,3 +19,34 @@ This is a small package with which you can count the number of times your comput
       if folder.endswith('site-packages'):
           webbrowser.open(folder)
    ```
+The following is only for windows computers
+
+3. Open [onf.cmd](.\Assets\onf.cmd) in a text editor
+4. Open the folder 'ONF' in 'site-packages' that you just pasted
+5. Right-click on main.py and select "Copy as Path"
+   ![Copy as Path](.\Assets\Images\copy-as-path.png)
+6. Replace ```"link-to-main.py"``` in [onf.cmd](.\Assets\onf.cmd) with the copied link
+7. Copy the file [onf.cmd]
+8. Open Windows Explorer (Using Win+E)
+9. In the address bar, type "shell:startup" and hit enter
+   ![explorer-addressbar-01](Assets\Images\explorer-addressbar-01.png)
+   ![explorer-addressbar-02](Assets\Images\explorer-addressbar-02.png)
+   ![explorer-addressbar-03](Assets\Images\explorer-addressbar-03.png)
+10. Paste the [onf.cmd](.\Assets\onf.cmd) file you just copied
+
+You are all set. Whenever your system starts up, it will be counted.
+To know the count, run this piece of code in python
+```python
+from ONF import count
+print(count)
+```
+
+
+#### NonWindows computers
+Please refer to other sources to know about files to be opened during system startup.
+After you are ok with opening "main.py" on system startup,
+```python
+from ONF import count
+print(count)
+```
+works for you.
