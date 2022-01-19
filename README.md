@@ -20,14 +20,14 @@ This is a small package with which you can count the number of times your comput
           webbrowser.open(folder)
    ```
 
-3. Open 'static.py' from the folder you just pasted in 'site-packages'
+3. Open 'static.py' and ', 'main.py' from the folder you just pasted in 'site-packages'
 4. Create a text file 'counterfile.bin' in the folder
 5. Right click and copy as path
 
    ![copy-as-path](Assets\Images\copy-as-path.png)
 
 6. Delete the file
-7. Replace `"link-to-counterfile.bin"` in 'static.py'
+7. Replace `"link-to-counterfile.bin"` in 'static.py' and 'main.py'
 
    Don't miss out the `r`.
 
