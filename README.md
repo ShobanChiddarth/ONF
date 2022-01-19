@@ -24,7 +24,7 @@ This is a small package with which you can count the number of times your comput
 4. Create a text file 'counterfile.bin' in the folder
 5. Right click and copy as path
 
-   ![copy-as-path](Assets\Images\copy-as-path.png)
+   ![copy-as-path](https://raw.githubusercontent.com/ShobanChiddarth/ONF/main/Assets/Images/copy-as-path.png)
 
 6. Delete the file
 7. Replace `"link-to-counterfile.bin"` in 'static.py' and 'main.py'
