@@ -8,7 +8,7 @@ count : number of times your computer was turned on
         This is read from binary file 'counterfile.bin'''
 
 import pickle, os
-from .main import file
+file = os.path.join( os.getcwd(), 'counterfile.bin' )
 if os.path.exists(file):
     fh=open(file, 'rb')
     count=pickle.load(fh)

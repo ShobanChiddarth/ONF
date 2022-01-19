@@ -1,1 +1,2 @@
-python "link-to-main.py"
+cd "link-to-folder-ONF"
+python ./main.py
