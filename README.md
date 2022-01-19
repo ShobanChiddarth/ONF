@@ -7,3 +7,15 @@ This is a small package with which you can count the number of times your comput
 2. Windows is preffered
 
 ### Setup
+1. Copy the folder [ONF](./ONF)
+2. Paste it in 'site-packages'
+   
+   To open 'site-packages'
+   Run this piece of code in python
+   
+   ```python
+   import sys, webbrowser
+   for folder in sys:
+      if folder.endswith('site-packages'):
+          webbrowser.open(folder)
+   ```
