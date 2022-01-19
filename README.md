@@ -23,14 +23,13 @@ The following is only for windows computers
 
 3. Open [onf.cmd](.\Assets\onf.cmd) in a text editor
 4. Open the folder 'ONF' in 'site-packages' that you just pasted
-5. Right-click on main.py and select "Copy as Path"
-   ![Copy as Path](.\Assets\Images\copy-as-path.png)
-6. Replace ```"link-to-main.py"``` in [onf.cmd](.\Assets\onf.cmd) with the copied link
+5. Copy the folder link from address bar
+   ![explorer-addressbar-01](Assets\Images\explorer-addressbar-01.png)
+   ![explorer-addressbar-02](Assets\Images\explorer-addressbar-02.png)
+6. Replace ```"link-to-folder-ONF"``` in [onf.cmd](.\Assets\onf.cmd) with the copied link
 7. Copy the file [onf.cmd]
 8. Open Windows Explorer (Using Win+E)
 9. In the address bar, type "shell:startup" and hit enter
-   ![explorer-addressbar-01](Assets\Images\explorer-addressbar-01.png)
-   ![explorer-addressbar-02](Assets\Images\explorer-addressbar-02.png)
    ![explorer-addressbar-03](Assets\Images\explorer-addressbar-03.png)
 10. Paste the [onf.cmd](.\Assets\onf.cmd) file you just copied
 
