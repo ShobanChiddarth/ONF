@@ -32,4 +32,4 @@ if __name__=='__main__':
     counterfile.close()
 
 # This file simply counts number of run.
-# Developed from project https://github.com/shobanchiddarth/counter (yet to be published)
+# Developed from project https://github.com/shobanchiddarth/counter
