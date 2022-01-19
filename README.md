@@ -6,7 +6,7 @@ This is a small package with which you can count the number of times your comput
 1. Python 3
 2. Windows is preffered
 
-### Setup
+### Installation
 1. Copy the folder [ONF](./ONF)
 2. Paste it in 'site-packages'
    
