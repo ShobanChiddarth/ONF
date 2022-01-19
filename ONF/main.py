@@ -12,7 +12,7 @@ Windows
 -------
 Put the link of this file in \"onf.cmd\" and put that file in \'shell:startup\''''
 import os
-file = os.path.join( os.getcwd(), 'counterfile.bin' ) # The file which the 
+file = r"link-to-counterfile.bin" # The file which the 
 # count has to be stored as binary
 if __name__=='__main__':
     import pickle
