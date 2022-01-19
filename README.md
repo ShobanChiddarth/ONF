@@ -42,7 +42,7 @@ print(count)
 ```
 
 
-#### NonWindows computers
+#### Non-Windows computers
 Please refer to other sources to know about files to be opened during system startup.
 After you are ok with opening "main.py" on system startup,
 ```python
