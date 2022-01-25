@@ -3,7 +3,7 @@
 This is a small package with which you can count the number of times your computer was turned on.
 
 ### Requirements
-1. Python 3
+1. [Python 3](https://www.installpython3.com)
 2. Windows computer (Windows 10 is preffered)
 
 ### Installation
@@ -20,37 +20,21 @@ This is a small package with which you can count the number of times your comput
           webbrowser.open(folder)
    ```
 
-3. Open 'static.py' and ', 'main.py' from the folder you just pasted in 'site-packages'
-4. Create a text file 'counterfile.bin' in the folder
-5. Right click and copy as path
-
-   ![copy-as-path](https://raw.githubusercontent.com/ShobanChiddarth/ONF/main/Assets/Images/copy-as-path.png)
-
-6. Delete the file
-7. Replace `"link-to-counterfile.bin"` in 'static.py' and 'main.py'
-
-   Don't miss out the `r`.
-
-   Finally it should look like
-   ```python
-   file = r"C:\Users\Admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\ONF\counterfile.bin"
-   ```
-
 The following is only for windows computers
 
-8. Open [onf.cmd](./Assets/onf.cmd) in a text editor
-9. Open the folder 'ONF' in 'site-packages' that you just pasted
-10. Copy the folder link from address bar
+3. Open [onf.cmd](./Assets/onf.cmd) in a text editor
+4. Open the folder 'ONF' in 'site-packages' that you just pasted
+5. Copy the folder link from address bar
 
    ![explorer-addressbar-01](Assets/Images/explorer-addressbar-01.png)
    ![explorer-addressbar-02](Assets/Images/explorer-addressbar-02.png)
 
-11. Replace ```"link-to-folder-ONF"``` in [onf.cmd](./Assets/onf.cmd) with the copied link
-12. Copy the file [onf.cmd]
-13. Open Windows Explorer (Using Win+E)
-14. In the address bar, type "shell:startup" and hit enter
+6. Replace `"link-to-folder-ONF"` in [onf.cmd](./Assets/onf.cmd) with the copied link
+7. Copy the file [onf.cmd]
+8. Open Windows Explorer (Using shortcut Win+E)
+9. In the address bar, type "shell:startup" and hit enter
    ![explorer-addressbar-03](Assets/Images/explorer-addressbar-03.png)
-15. Paste the [onf.cmd](./Assets/onf.cmd) file you just copied
+10. Paste the [onf.cmd](./Assets/onf.cmd) file you just copied
 
 You are all set. Whenever your computer starts up, it will be counted.
 To know the count, run this piece of code in python
