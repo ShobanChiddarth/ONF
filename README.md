@@ -7,8 +7,18 @@ This is a small package with which you can count the number of times your comput
 2. Windows computer (Windows 10 is preffered)
 
 ### Installation
-1. Copy the folder [ONF](./ONF)
-2. Paste it in 'site-packages'
+1. Download this repo
+
+   - Download [zip](https://github.com/ShobanChiddarth/ONF/archive/refs/heads/main.zip) and extract it
+
+   or
+   - Clone it
+      ```
+      git clone https://github.com/ShobanChiddarth/ONF.git
+      ```
+2. Go inside the folder
+3. Copy the folder [ONF](./ONF)
+4. Paste it in 'site-packages'
    
    To open 'site-packages'
    Run this piece of code in python
@@ -22,19 +32,19 @@ This is a small package with which you can count the number of times your comput
 
 The following is only for windows computers
 
-3. Open [onf.cmd](./Assets/onf.cmd) in a text editor
-4. Open the folder 'ONF' in 'site-packages' that you just pasted
-5. Copy the folder link from address bar
+5. Open [onf.cmd](./Assets/onf.cmd) in a text editor
+6. Open the folder 'ONF' in 'site-packages' that you just pasted
+7. Copy the folder link from address bar
 
    ![explorer-addressbar-01](Assets/Images/explorer-addressbar-01.png)
    ![explorer-addressbar-02](Assets/Images/explorer-addressbar-02.png)
 
-6. Replace `"link-to-folder-ONF"` in [onf.cmd](./Assets/onf.cmd) with the copied link
-7. Copy the file [onf.cmd]
-8. Open Windows Explorer (Using shortcut Win+E)
-9. In the address bar, type "shell:startup" and hit enter
+8. Replace `"link-to-folder-ONF"` in [onf.cmd](./Assets/onf.cmd) with the copied link
+9. Copy the file [onf.cmd]
+10. Open Windows Explorer (Using shortcut Win+E)
+11. In the address bar, type "shell:startup" and hit enter
    ![explorer-addressbar-03](Assets/Images/explorer-addressbar-03.png)
-10. Paste the [onf.cmd](./Assets/onf.cmd) file you just copied
+12. Paste the [onf.cmd](./Assets/onf.cmd) file you just copied
 
 You are all set. Whenever your computer starts up, it will be counted.
 To know the count, run this piece of code in python
