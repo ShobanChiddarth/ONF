@@ -14,28 +14,21 @@ Put the link of this file in \"onf.cmd\" and put that file in \'shell:startup\''
 
 
 import os
-file = os.path.join(os.path.dirname(__file__), 'counterfile.bin') 
+# from . import config
+import config
+import pickle
 
-if __name__=='__main__':
-    import pickle
-    if os.path.exists(file): 
-        counterfile=open(file, 'rb')
-        count=pickle.load(counterfile)
-    else:
-        counterfile=open(file, 'wb')
-        count=0
-        pickle.dump(count, counterfile)
+d = config.load_deque_of_files()
 
-    counterfile.close() 
-    count+=1 
-    counterfile=open(counterfile.name, mode='rb+') 
+for item in d:
 
-    
-    counterfile=open(file, 'wb')
+    count=config.load_val(item)
+    count+=1
 
-    pickle.dump(count, counterfile) 
+    with open(item, mode='wb') as fh:
+        fh.write(pickle.dumps(count))
 
-    counterfile.close() 
+
 
 # This file simply counts number of times it was run.
 # Developed from project https://github.com/shobanchiddarth/counter
