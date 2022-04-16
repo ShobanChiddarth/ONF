@@ -1,8 +1,8 @@
 # Python package cache
 ONF/__pycache__
-# This file is used by ONF/main.py to count.
-# So it is not needed
-ONF/counterfile.bin
+
+# Binary file storing list of files to store the count
+ONF/deque_of_backups.bin
 
 # Created by https://www.toptal.com/developers/gitignore/api/windows,python,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,python,visualstudiocode
