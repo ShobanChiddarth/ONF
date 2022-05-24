@@ -24,10 +24,9 @@ This is a small package with which you can count the number of times your comput
    Run this piece of code in python
    
    ```python
-   import sys, webbrowser
-   for folder in sys:
-      if folder.endswith('site-packages'):
-          webbrowser.open(folder)
+   import site, webbrowser
+   for folder in site.getsitepackages():
+      webbrowser.open(site)
    ```
 
 The following is only for windows computers
